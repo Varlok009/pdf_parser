@@ -12,7 +12,7 @@
 #### Установка:
 
 1. git clone git@github.com:Varlok009/pdf_parser.git
-2. cd credit-qa
+2. cd pdf_parser
 3. pip install pipenv
 4. pipenv shell (активация окружения)
 5. pipenv install (устанавливка зависимостей)
