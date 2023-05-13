@@ -11,7 +11,7 @@
    
 #### Установка:
 
-1. git clone git@gitlab.fast-system.ru:credit/credit-qa.git
+1. git clone git@github.com:Varlok009/pdf_parser.git
 2. cd credit-qa
 3. pip install pipenv
 4. pipenv shell (активация окружения)
