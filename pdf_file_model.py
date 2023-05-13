@@ -1,5 +1,5 @@
-from pathlib import Path
 import fitz
+from pathlib import Path
 
 
 class PdfFile:
@@ -144,7 +144,6 @@ class PdfFile:
                 print(f'Порядок расположения параметра {other_param} отличается от эталонного')
                 return False
             if not self._compare_coord(self_item.get('coord'), other_item.get('coord')):
-                print(f'Координаты расположения блока с параметром {other_param} отличается от  эталонного')
+                print(f'Координаты расположения блока с параметром {other_param} отличается от эталонного')
                 return False
         return True
-
